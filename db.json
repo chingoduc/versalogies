@@ -1,0 +1,66 @@
+{
+  "targets": [
+    {
+      "id": 1,
+      "name": "Hoang van Minh",
+      "address": "33 Ly Chinh Thang, Quan 3, Tp HCM"
+    },
+    {
+      "id": 2,
+      "name": "Vu thi Ha",
+      "address": "111 Truong van Binh, Quan Tay Ho, Ha Noi"
+    }
+  ],
+  "temperatures": [
+    {
+      "id": 1,
+      "date": "1-1-2021",
+      "time": "13.48",
+      "temperatue": 37.5,
+      "threshold": 37,
+      "targetId": 1
+    },
+    {
+      "id": 2,
+      "date": "1-1-2021",
+      "time": "21.50",
+      "temperatue": 41.5,
+      "threshold": 37,
+      "targetId": 1
+    },
+    {
+        "id": 2,
+        "date": "10-7-2021",
+        "time": "8.10",
+        "temperatue": 37,
+        "threshold": 37,
+        "targetId": 2
+    }
+  ],
+  "withinborder": [
+    {
+      "id": 1,
+      "date": "3-5-2021",
+      "time": "13.50",
+      "distance": 8.6,
+      "border": 6.5,
+      "targetId": 1
+    },
+    {
+      "id": 2,
+      "date": "11-7-2021",
+      "time": "21.57",
+      "distance": 21.5,
+      "border": 6.5,
+      "targetId": 1
+    },
+    {
+      "id": 2,
+      "date": "10-7-2021",
+      "time": "8.10",
+      "distance": 6,
+      "border": 6.5,
+      "targetId": 2
+    }
+  ]
+}
